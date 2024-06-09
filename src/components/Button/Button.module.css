@@ -1,0 +1,19 @@
+.button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: darkgreen;
+}
+
+.primary {
+  composes: button;
+  background-color: blue;
+}
+
+.primary:hover {
+  background-color: darkblue;
+}

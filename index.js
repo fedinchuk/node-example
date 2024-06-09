@@ -1,14 +1,12 @@
-// import { camelCase } from "lodash-es";
+import express from "express";
 
-// let str = "Привіт світ!";
+const app = express();
+const port = 3000;
 
-// let notUsed;
+app.get("/hello", (_reg, res) => {
+  res.send("Вітаємо у світі Node.js і Express!");
+});
 
-// str = camelCase(str);
-
-// console.log(str);
-
-// console.log(notUsed);
-
-const f = (a) => a + 100;
-f();
+app.listen(port, () => {
+  console.log(`Відповідь з серверна на порт ${port}`);
+});
