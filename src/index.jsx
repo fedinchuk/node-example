@@ -49,9 +49,9 @@ function App() {
           </ul>
         </nav>
         <Routes>
-          <Route path="/counter" element={<Counter />} />
-          <Route path="/joke" element={<Joke2 />} />
-          <Route path="/posts" element={<Posts />} />
+          <Route path="node-example/counter" element={<Counter />} />
+          <Route path="node-example/joke" element={<Joke2 />} />
+          <Route path="node-example/posts" element={<Posts />} />
         </Routes>
       </BrowserRouter>
       {/* <Atomic /> */}

@@ -14929,13 +14929,13 @@
 	        })
 	      }), /*#__PURE__*/jsxRuntimeExports.jsxs(Routes, {
 	        children: [/*#__PURE__*/jsxRuntimeExports.jsx(Route, {
-	          path: "/counter",
+	          path: "node-example/counter",
 	          element: /*#__PURE__*/jsxRuntimeExports.jsx(Counter, {})
 	        }), /*#__PURE__*/jsxRuntimeExports.jsx(Route, {
-	          path: "/joke",
+	          path: "node-example/joke",
 	          element: /*#__PURE__*/jsxRuntimeExports.jsx(Joke2, {})
 	        }), /*#__PURE__*/jsxRuntimeExports.jsx(Route, {
-	          path: "/posts",
+	          path: "node-example/posts",
 	          element: /*#__PURE__*/jsxRuntimeExports.jsx(Posts, {})
 	        })]
 	      })]
