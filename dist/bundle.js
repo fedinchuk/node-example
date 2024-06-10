@@ -12936,7 +12936,7 @@
 	function Posts() {
 	  const [posts, setPosts] = reactExports.useState([]);
 	  reactExports.useEffect(() => {
-	    fetch("http://jsonplaceholder.typicode.com/posts").then(response => response.json()).then(data => setPosts(data)).catch(error => console.error(error));
+	    fetch("https://jsonplaceholder.typicode.com/posts").then(response => response.json()).then(data => setPosts(data)).catch(error => console.error(error));
 	  }, []);
 	  return /*#__PURE__*/jsxRuntimeExports.jsx("ul", {
 	    children: posts.map(post => /*#__PURE__*/jsxRuntimeExports.jsx("li", {
