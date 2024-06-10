@@ -14900,19 +14900,19 @@
 	          className: "text-white flex flex-wrap justify-center space-x-4",
 	          children: [/*#__PURE__*/jsxRuntimeExports.jsx("li", {
 	            children: /*#__PURE__*/jsxRuntimeExports.jsx(Link, {
-	              to: "/counter",
+	              to: "node-example/counter",
 	              className: "hover:underline",
 	              children: "Counter"
 	            })
 	          }), /*#__PURE__*/jsxRuntimeExports.jsx("li", {
 	            children: /*#__PURE__*/jsxRuntimeExports.jsx(Link, {
-	              to: "/joke",
+	              to: "node-example/joke",
 	              className: "hover:underline",
 	              children: "Joke"
 	            })
 	          }), /*#__PURE__*/jsxRuntimeExports.jsx("li", {
 	            children: /*#__PURE__*/jsxRuntimeExports.jsx(Link, {
-	              to: "/posts",
+	              to: "node-example/posts",
 	              className: "hover:underline",
 	              children: "Posts"
 	            })

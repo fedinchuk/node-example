@@ -22,17 +22,17 @@ function App() {
         <nav className="bg-gray-800 rounded-lg p-4">
           <ul className="text-white flex flex-wrap justify-center space-x-4">
             <li>
-              <Link to="/counter" className="hover:underline">
+              <Link to="node-example/counter" className="hover:underline">
                 Counter
               </Link>
             </li>
             <li>
-              <Link to="/joke" className="hover:underline">
+              <Link to="node-example/joke" className="hover:underline">
                 Joke
               </Link>
             </li>
             <li>
-              <Link to="/posts" className="hover:underline">
+              <Link to="node-example/posts" className="hover:underline">
                 Posts
               </Link>
             </li>
